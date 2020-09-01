@@ -1,0 +1,28 @@
+.keys {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid black;
+  margin: 1rem;
+  text-align: center;
+  width: 5rem;
+  /*CSS transitions allows you to change property values smoothly, over a given duration.*/
+  transition: all;
+  /* CSS transitions-duration: Specifies how many seconds or milliseconds a transition effect takes to complete */
+  transition-duration: 0.07s;
+}
+
+.sound {
+}
+
+kbd {
+  display: block;
+  /* rem - Relative to font-size of the root element. */
+  font-size: 4rem;
+}
+
+.selector {
+  border: 0.8em solid cyan;
+}
